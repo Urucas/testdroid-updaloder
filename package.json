@@ -1,0 +1,33 @@
+{
+  "name": "testdroid-updaloder",
+  "version": "0.0.1",
+  "description": "Uploading apk & ipa to Testdroid from nodejs",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests/* --compilers js:babel/register -t 15s",
+    "build": "./node_modules/grunt-cli/bin/grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urucas/testdroid-updaloder.git"
+  },
+  "keywords": [
+    "testdroid",
+    "test",
+    "automation",
+    "appium"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/testdroid-updaloder/issues"
+  },
+  "homepage": "https://github.com/Urucas/testdroid-updaloder#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.3",
+    "load-grunt-tasks": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
